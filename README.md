@@ -1,7 +1,7 @@
 # My first project made with react:
 All data saved to a local storage
 
-## To run the project:
+## To run the project https://todo-app-xi-nine.vercel.app/   or:
 
 Clone this repository then type in console "npm install", then =>
 
