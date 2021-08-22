@@ -16,11 +16,10 @@ const AddNewItem = (props) => {
         }
         addItem(task)
         setInputVal('')
-
     }
     return (
         <div className="input-new-item">
-            <input ref={inputRef} className="text" placeholder="Add new task here" defaultValue={inputVal} onChange={(event) => setInputVal(event.target.value)}/>
+            <input ref={inputRef} className="text" placeholder="Add new task here" value={inputVal} onChange={(event) => setInputVal(event.target.value)}/>
             <button className="btn add" onClick={AddNewTask}>+</button>
         </div>
     );
