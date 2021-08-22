@@ -1,0 +1,16 @@
+.footer {
+    border-top: 1px solid #626466;
+    position: relative;
+    width: 720px;
+    height: 50px;
+    background-color: #00bea5;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: -1px -3px 5px 1px rgba(0,0,0,0.76);
+    -webkit-box-shadow: -1px -3px 5px 1px rgba(0,0,0,0.76);
+    -moz-box-shadow: -1px -3px 5px 1px rgba(0,0,0,0.76);
+}
+.footer p {
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    width:  720px;
+    height: 96px;
+    background-color: #00bea5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position:relative;
+    box-shadow: 0px 10px 9px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 10px 9px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 9px -4px rgba(0,0,0,0.75);
+}
+.navbar h1{
+    color:white;
+    margin-left: 25px;
+    margin-right: 200px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}

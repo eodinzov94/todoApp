@@ -1,0 +1,83 @@
+body {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-color: #edf2f7;
+}
+.app-wrapper{
+    max-width: 720px;
+    margin: auto;
+    padding: 10px;
+}
+
+.btn{
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    padding: 1px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    border-style: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #edf2f7;
+}
+.add{
+    background-color: #86a8e2;
+    color: white;
+}
+.add:hover{
+    color: #86a8e2;
+}
+.delete{
+    background-color: crimson;
+    color:white;
+}
+.save{
+    background-color: #00d6bd;
+    color:white;
+}
+.save:hover{
+    color:#00d6bd;
+}
+.delete:hover{
+    color: crimson;
+}
+.edit{
+    background-color: #00bbd4;
+    color:white;
+}
+.edit:hover{
+    color: #136af0;
+
+}
+.checkbox{
+    -webkit-box-shadow: 0px 0px 0px 2px #e2e2e2;
+    -moz-box-shadow: 0px 0px 0px 2px #e2e2e2;
+    box-shadow: 0px 0px 0px 2px #e2e2e2;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.text{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+    margin-left: 50px;
+    border-style: none;
+    border-bottom: 2px solid #e2e2e2;
+    width: 600px;
+    height: 30px;
+}
+.width {
+    width: 500px;
+}
+.text::placeholder {
+    text-align: center;
+}
+.text:focus{
+    outline: none;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+}

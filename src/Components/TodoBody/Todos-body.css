@@ -1,0 +1,35 @@
+.todos-body{
+
+    width:  720px;
+    height: auto;
+    padding-bottom: 15px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 5px;
+}
+.todos-body h2{
+    text-align: center;
+    border-bottom: 2px solid #b4b0b0;
+}
+.tasks-status{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.tasks-status:hover{
+    font-size: 25px;
+    transition: 500ms all;
+}
+.selected{
+    font-weight: bold;
+    background-color: #00bda5;
+    border-radius: 5px;
+
+}
+.empty{
+    font-size: 30px;
+    margin-top: 30px;
+    height: 75px;
+    text-align: center;
+}

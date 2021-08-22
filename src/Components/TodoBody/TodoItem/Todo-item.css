@@ -1,0 +1,30 @@
+.todo-item{
+    padding: 3px;
+    height:auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+    border: 2px solid #e2e2e2;
+    display: grid;
+    grid-template-columns: auto 130px;
+    grid-gap: 10px;
+}
+.text-div{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+.finished{
+    text-decoration: line-through;;
+}
+.item-body{
+    cursor: pointer;
+}
+.todo-item input{
+    margin-top: 25px;
+
+}
+.todo-item button{
+    margin-top: 20px;
+
+}
